@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    min-height: 100vh;
+    color: #ffffff;
+    background: radial-gradient(#7ec3cc, transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 135px;
+    font-size: 48px;
+    background: #438f86b8;
+    padding: 30px;
+    margin: 0;
+  }
+
+  .search-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 250px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  select,
+  input,
+  button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  input,
+  select {
+    width: 200px;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .card .temp, .card .desc, .card .humidity, .card .wind {
+  padding-top: 12px !important;
+}
+
+@media only screen and (max-width:767px)
+{
+
+    h1 {
+        padding: 21px;
+        font-size: 17px;
+    }
+    body{
+        padding: 20px;
+    }
+
+}
